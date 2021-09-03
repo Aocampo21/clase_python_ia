@@ -70,9 +70,40 @@ print(type(y))
 
 # Concatenaciones
 
-a = 'hola'
-b = 'mundo'
-c = a + '' + b
+a = "hola"
+b = "mundo"
+c = a + b
 
+a = 'Hola'
+b = a * 5
 
+# Imprimir por pantalla
 
+nombre = input('Digite su nombre')
+print('Hola', nombre)
+
+# Haga un algoritmo que sume dos numeros e imprima su resultado
+
+n1 = float(input('Digite el numero uno: '))
+n2 = float(input('Digite el numero dos: '))
+suma = n1 + n2
+# print(suma)
+# print('La suma es: ', suma)
+print(f'La suma de los numeros {n1} + {n2} es {suma}')
+
+# HUA que lea un numero y lo eleve al cuadrado
+
+a = int(input('Digite un numero'))
+b = a ** 2
+print(f'La potencia del numero {a} es {b}')
+
+# HUA que tome el valor de un producto le aplique el 20% de descuento,
+# imprima el valor del producto inicial, el valor con descuento y el valor
+# ahorrado
+
+a = float(input('Digite el valor del producto: $'))
+descuento = a * 0.20
+Vfinal = a - descuento
+print(f'El valor incial del producto es: ${a:,}')
+print(f'El valor incial del descuento es: ${descuento:,}')
+print(f'El valor incial del ahorrado es: ${Vfinal:,}')
